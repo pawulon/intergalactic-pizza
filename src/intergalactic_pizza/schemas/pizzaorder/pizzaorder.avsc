@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "namespace": "com.intergalactic.pizza",
+  "name": "PizzaOrder",
+  "doc": "",
+  "fields": [
+    {
+      "name": "order_id",
+      "doc": "Unique order identifier",
+      "type": "string"
+    }
+  ]
+}

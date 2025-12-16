@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "order_id": {
+      "description": "Unique order identifier",
+      "examples": [
+        "ORD-12345"
+      ],
+      "pattern": "^ORD-[0-9]+$",
+      "title": "Order Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "order_id"
+  ],
+  "title": "PizzaOrder",
+  "type": "object"
+}
