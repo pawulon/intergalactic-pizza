@@ -1,0 +1,14 @@
+[project]
+name = "intergalactic-pizza"
+version = "0.1.0"
+description = "Learning Sandbox"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+intergalactic-pizza = "intergalactic_pizza:main"
+
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"
